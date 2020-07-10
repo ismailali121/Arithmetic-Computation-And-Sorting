@@ -11,3 +11,7 @@ for((i=1;i<5;i++))
 do
         resultDictionary[$i]="$((result$i))"
 done
+for((i=1;i<5;i++))
+do
+        array[$i]=${resultDictionary[$i]}
+done
