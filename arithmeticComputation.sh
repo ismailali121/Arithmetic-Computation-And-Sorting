@@ -4,3 +4,4 @@ read -p "Enter second value : " b
 read -p "Enter third value : " c
 result1=$((a+b*c))
 result2=$((a*b+c))
+result3=$(( c+(a/b) ))
